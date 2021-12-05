@@ -25,5 +25,15 @@ Data Preprocessing
 * Switch into the directory that contains multiple jupyter notebooks for data processing using `cd Data_preprocessing`.
 * 1. Use `Data_Understanding.ipynb` to overview the raw data.
 * 2. Extract features from `items.csv`
-    * 1. Language: This `Language_Detection.ipynb` notebook generates the language of each book based on each item's title
-       * This will create `items_lang.csv` in the `Annotated_dataset` folder.    
+    * Language: This `Language_Detection.ipynb` notebook generates the language of each book based on each item's title
+       * This will create `items_inc_lang.csv` in the `Annotated_dataset` folder.
+    * Age Identifier: Use `Data_preprocessing_Interest_Age.ipynb` to assign each item an age value
+       * This will create `item_inc_lang_age.csv` file which is the final item dataset in the `Annotated_dataset` folder. 
+* 3. Process duplicate items for `transaction.csv`
+    * Use `Item_Preprocessing.ipynb` to generate the processed dataset `preprocessed_transactions.csv` to `Annotated_dataset` folder.
+
+Modeling
+-------------------------------
+This recommendation problem is without user rating, called a content-based recommendation problem.
+After finishing data processing, the transaction dataset `preprocessed_transactions.csv` is used to build the relationship between items.
+   - This idea is referenced with this conference paper ([Feature weighting in content based recommendation system using social network analysis](https://www.researchgate.net/publication/221022528_Feature_weighting_in_content_based_recommendation_system_using_social_network_analysis).
