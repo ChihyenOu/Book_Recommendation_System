@@ -8,7 +8,7 @@ Installation
 ### Data Information
 
 * Clone this repo to your computer.
-* Get into the folder using `cd Recommendation_System`.
+* Get into the folder using `cd Book_Recommendation_System`.
 * Get the raw data information:
     *  Switch into the `Original_dataset` directory using `cd Original_dataset`.
     *  You should see two raw dataset in csv file called `items.csv` and `transactions.csv`.
