@@ -43,3 +43,5 @@ After finishing data processing, the transaction dataset `preprocessed_transacti
 * 2. Train a Logistic Regression model on all features
    * Based on `transaction_network_data_all.csv` dataset, this `Weights_for_features.ipynb` notebook saves the trained model called `finalized_LR_model.sav` to the `Annotated_dataset` folder.
 * 3. Recommendation system
+   *  Switch into the directory `Model`
+   *  `Final_Content_RS.ipynb` is the recommendation system which recommends the top 5 similar books for each book.
