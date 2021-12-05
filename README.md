@@ -1,6 +1,6 @@
 Book Recommendation System
 -------------------------------
-This is a Content-based book recommendation system which recommends the top 5 most similar books for each book. This project is extended from an international student competition named [Data Mining Cup 2021](https://www.data-mining-cup.com/dmc-2021/).
+This book recommendation system recommends the top 5 most similar books for each book using Machine Learning and Social Network Analysis. This project is extended from an international student competition named [Data Mining Cup 2021](https://www.data-mining-cup.com/dmc-2021/).
 
 Installation
 -------------------------------
@@ -34,7 +34,7 @@ Data Preprocessing
 
 Modeling
 -------------------------------
-This recommendation problem is without user rating, called a content-based recommendation problem.
+This recommendation problem is without user rating in the raw dataset, called a content-based recommendation problem.
 After finishing data processing, the transaction dataset `preprocessed_transactions.csv` is used to build the relationship between items.
    - This idea is referenced with this conference paper ([Feature weighting in content based recommendation system using social network analysis](https://www.researchgate.net/publication/221022528_Feature_weighting_in_content_based_recommendation_system_using_social_network_analysis)).
 
