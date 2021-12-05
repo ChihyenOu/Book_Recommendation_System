@@ -1,6 +1,6 @@
 Book Recommendation System
 -------------------------------
-This is a Content-based book recommendation system which recommends the top 5 similar books for each book.
+This is a Content-based book recommendation system which recommends the top 5 most similar books for each book. This project is extended from an international student competition named [Data Mining Cup 2021](https://www.data-mining-cup.com/dmc-2021/).
 
 Installation
 -------------------------------
@@ -44,4 +44,4 @@ After finishing data processing, the transaction dataset `preprocessed_transacti
    * Based on `transaction_network_data_all.csv` dataset, this `Weights_for_features.ipynb` notebook saves the trained model called `finalized_LR_model.sav` to the `Annotated_dataset` folder.
 * 3. Recommendation system
    *  Switch into the directory `Model`
-   *  `Final_Content_RS.ipynb` is the recommendation system which recommends the top 5 similar books for each book.
+   *  `Final_Content_RS.ipynb` is the recommendation system which recommends the top 5 most similar books for each book.
