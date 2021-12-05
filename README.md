@@ -36,4 +36,4 @@ Modeling
 -------------------------------
 This recommendation problem is without user rating, called a content-based recommendation problem.
 After finishing data processing, the transaction dataset `preprocessed_transactions.csv` is used to build the relationship between items.
-   - This idea is referenced with this conference paper ([Feature weighting in content based recommendation system using social network analysis](https://www.researchgate.net/publication/221022528_Feature_weighting_in_content_based_recommendation_system_using_social_network_analysis).
+   - This idea is referenced with this conference paper ([Feature weighting in content based recommendation system using social network analysis](https://www.researchgate.net/publication/221022528_Feature_weighting_in_content_based_recommendation_system_using_social_network_analysis)).
