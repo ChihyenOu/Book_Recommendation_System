@@ -5,7 +5,7 @@ This is a Content-based book recommendation system which recommends the top 5 si
 Installation
 -------------------------------
 
-### Download the data
+### Data Information
 
 * Clone this repo to your computer.
 * Get into the folder using 'cd Recommendation_System'.
@@ -13,9 +13,6 @@ Installation
     *  Switch into the 'Original_dataset' directory using 'cd Original_dataset'.
     *  You should see two raw dataset in csv file called 'items.csv' and 'transactions.csv'.
     *  You can get more information on [Data Mining Cup 2021](https://www.data-mining-cup.com/dmc-2021/) website.
-* Go back to the home directory of the project using 'cd ..'.
-* Run 'mkdir Annotated_dataset' to create a folder for preprocessing data.
-
 
 ### Install the requirements
 * Install the requirements using 'pip install -r requirements.txt'
@@ -24,3 +21,5 @@ Installation
 
 Usage
 -------------------------------
+* Run 'mkdir Annotated_dataset' on home directory to create a directory for processed data.
+* 
