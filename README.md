@@ -19,7 +19,11 @@ Installation
     * Make sure you use Python3.
     * Recommendation: use a virtual environment for this project.
 
-Usage
+Data Preprocessing
 -------------------------------
 * Run `mkdir Annotated_dataset` on home directory to create a directory for processed data.
-* 
+* Switch into the directory that contains multiple jupyter notebooks for data processing using `cd Data_preprocessing`.
+* 1. Use `Data_Understanding.ipynb` to overview the raw data.
+* 2. Extract features from `items.csv`
+    * 1. Language: This `Language_Detection.ipynb` notebook generates the language of each book based on each item's title
+       * This will create `items_lang.csv` in the `Annotated_dataset` folder.    
