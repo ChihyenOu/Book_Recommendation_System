@@ -38,7 +38,7 @@ This recommendation problem is without user rating, called a content-based recom
 After finishing data processing, the transaction dataset `preprocessed_transactions.csv` is used to build the relationship between items.
    - This idea is referenced with this conference paper ([Feature weighting in content based recommendation system using social network analysis](https://www.researchgate.net/publication/221022528_Feature_weighting_in_content_based_recommendation_system_using_social_network_analysis)).
 
-* 1. Use `Build_transaction_social_network_data.ipynb` to build a social network.
+* 1. Use `Build_transaction_social_network_data.ipynb` to build a social network for items.
    * create two dataset that are `transaction_network.csv` and `transaction_network_data_all.csv` to the `Annotated_dataset` folder.
 * 2. Train a Logistic Regression model on all features
    * Based on `transaction_network_data_all.csv` dataset, this `Weights_for_features.ipynb` notebook saves the trained model called `finalized_LR_model.sav` to the `Annotated_dataset` folder.
